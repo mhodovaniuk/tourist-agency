@@ -1,0 +1,21 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Print Tours</short-name>
+    <tag>
+        <name>print</name>
+        <tag-class>tags.PrintTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <name>list</name>
+            <type>java.util.ArrayList</type>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>properties</name>
+            <type>java.lang.String</type>
+            <required>true</required>
+        </attribute>
+    </tag>
+</taglib>
